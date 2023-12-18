@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class LocalAuthentication {
     @Id
-    private int id;
-    
+    private Long id;
+
     private String password;
 }

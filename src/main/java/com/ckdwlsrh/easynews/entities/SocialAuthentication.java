@@ -15,8 +15,8 @@ import lombok.NoArgsConstructor;
 public class SocialAuthentication {
 
     @Id
-    private int id;
-    
+    private Long id;
+
     private String platform;
 
     private String sns_service_id;
